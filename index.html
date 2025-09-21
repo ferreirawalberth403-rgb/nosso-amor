@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nosso Amor 💖</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fdf6f9;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    h1 {
+      margin: 20px 0;
+      color: #d63384;
+    }
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .galeria img, .galeria video {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+    }
+    .galeria img:hover, .galeria video:hover {
+      transform: scale(1.05);
+    }
+    .videos {
+      margin: 40px auto;
+      max-width: 800px;
+      padding: 20px;
+    }
+    .videos video {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <h1>Nosso Amor 💞</h1>
+
+  <!-- Galeria de Fotos -->
+  <div class="galeria">
+    <img src="assets/foto1.jpg" alt="Foto 1">
+    <img src="assets/foto2.jpg" alt="Foto 2">
+    <img src="assets/foto3.jpg" alt="Foto 3">
+    <img src="assets/foto4.jpg" alt="Foto 4">
+    <img src="assets/foto5.jpg" alt="Foto 5">
+  </div>
+
+  <!-- Galeria de Vídeos -->
+  <div class="videos">
+    <video controls>
+      <source src="assets/video1.mp4" type="video/mp4">
+      Seu navegador não suporta vídeo.
+    </video>
+    <video controls>
+      <source src="assets/video2.mp4" type="video/mp4">
+      Seu navegador não suporta vídeo.
+    </video>
+  </div>
+
+</body>
+</html>
